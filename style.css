@@ -1,0 +1,15 @@
+
+body{font-family: 'EB Garamond', serif;}
+.top-header{color:white}
+.top-header{ background-color:#2563eb}
+    .top-header{
+text-align:center;
+padding:2.5rem 1rem}
+
+.top-header{margin-top:1rem 2rem}
+.top-header{border-top-left-radius: 1rem;}
+.change{color:blue}
+.list{list-style-type:none;
+    display:inline
+}
+
