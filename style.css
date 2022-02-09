@@ -15,3 +15,12 @@ padding-inline-start: 0px;}
    display:inline; 
 padding:3rem 3rem}
 .middle{text-align: center;}
+.my-img{max-width:70%;
+width: 500px;
+margin:auto;
+display:block;}
+.upper{text-align:center;
+    padding:2rem 0rem;
+    margin:auto
+   
+    }
