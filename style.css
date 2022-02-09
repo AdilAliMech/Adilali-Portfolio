@@ -10,6 +10,10 @@ padding:2.5rem 1rem}
 .top-header{border-top-left-radius: 1rem;}
 .change{color:blue}
 .list{list-style-type:none;
-    display:inline
-}
+padding-inline-start:0px;}
+    
 
+.lista{list-style-type:none;
+    display:inline;
+padding:3rem 3rem}   
+.middle{text-align:center}
