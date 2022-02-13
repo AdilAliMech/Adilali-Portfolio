@@ -90,8 +90,7 @@ hr {
 
 .base .link {
   color: white;
-   max-width:600px;
-   margin: auto;}
+  }
 .image{max-width: 350px;
   display:block;
    margin:auto;}
