@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #8b5cf6
+  --primary-color: #8b5cf6;
+  --half-color: #69696b;
 }
 
 
@@ -47,7 +48,8 @@ hr {
   padding: 0rem 0.5rem
 }
 
-.navigation {padding: 1rem;
+.navigation {
+  padding: 1rem;
   color: white;
   background-color: var(--primary-color);
   border-bottom-left-radius: 1rem;
@@ -55,17 +57,49 @@ hr {
 
 .navigation .link {
   color: white;
-  padding:2rem ;
 }
 
 .navigation .nav-brand {
   font-weight: bold;
   font-size: large;
-  font-family: 'Merriweather Sans', sans-serif;
-}
+  font-family: 'Merriweather Sans', sans-serif;}
 
 .inside-nav {
-  text-align: center;
- 
+  text-align:right;
+  font-weight:bolder;
+
 }
-.navigation .link-active{font-weight: bolder;}
+
+.navigation .link-active {
+  font-weight: bolder;
+}
+
+.inside-footer{
+  text-align: center;  
+}
+
+.footer-head {
+  text-align: center;
+  padding: 1rem 0rem;
+  color: white
+}
+
+.base {
+  background-color: var(--primary-color);
+}
+
+.base .link {
+  color: white;
+}
+.image{max-width: 600px;
+  display:block;
+   margin:auto;}
+   .bottom{text-align: center;
+  color:var(--half-color)}
+  span{color: var(--primary-color);}
+  .sec-one{background-color:rgb(216, 209, 209);
+  padding:2rem 0rem
+}
+  .sec-one h3{padding:0rem 1rem;
+  }
+  .sec-one p{padding-left: 1rem;}
