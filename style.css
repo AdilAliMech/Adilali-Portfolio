@@ -19,7 +19,7 @@ body {
 }
 
 .link {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   text-decoration: none;
 }
 
@@ -82,11 +82,10 @@ hr {
   background-color: var(--primary-color);
   border-bottom-right-radius: 1rem; 
   text-align: center;
-  padding: 1rem 0rem;
+  padding: 2rem 0.5rem;
   color: white;
   font-size: larger;
-  max-width: 600px;
-  margin: auto;
+  
 }
 
 .base .link {
