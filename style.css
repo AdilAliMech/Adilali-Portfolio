@@ -83,13 +83,13 @@ body {
   padding: 1rem 0.5rem;
   color: white;
   font-size: larger;
-  
+ margin: auto;
+
+ 
 }
 
-.base .link {
+.base .nlink {
   color: white;
-  font-size: smaller;
-  height: 50px;
   }
 .image{max-width: 350px;
   display:block;
@@ -105,4 +105,12 @@ body {
   }
   
   .sec-two{ padding:2rem 0rem}
+  
+  .nlink{padding: 0.2rem 0.2rem;
+  text-decoration: none;
+max-width: 600px;
+margin: auto;
+font-size: smaller;}
+
+  
   
