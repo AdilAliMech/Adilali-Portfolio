@@ -89,6 +89,7 @@ body {
 .base .link {
   color: white;
   font-size: smaller;
+  height: 50px;
   }
 .image{max-width: 350px;
   display:block;
