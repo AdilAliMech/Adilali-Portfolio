@@ -27,6 +27,7 @@ body {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: blanchedalmond;
+  ;
 }
 
 .link-second {
@@ -52,7 +53,7 @@ hr {
   padding: 1rem;
   color: white;
   background-color: var(--primary-color);
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 .navigation .link {
@@ -81,11 +82,14 @@ hr {
 .footer-head {
   text-align: center;
   padding: 1rem 0rem;
-  color: white
+  color: white;
+  font-size: larger;
+  
 }
 
 .base {
   background-color: var(--primary-color);
+  border-bottom-right-radius: 1rem;
 }
 
 .base .link {
@@ -100,6 +104,9 @@ hr {
   .sec-one{background-color:rgb(216, 209, 209);
   padding:2rem 0rem
 }
-  .sec-one h3{padding:0rem 1rem;
+  section h3{text-align: center;
+ 
   }
-  .sec-one p{padding-left: 1rem;}
+  
+  .sec-two{ padding:2rem 0rem}
+  
