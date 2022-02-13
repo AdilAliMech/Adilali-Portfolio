@@ -61,16 +61,18 @@ body {
 .navigation .nav-brand {
   font-weight: bold;
   font-size: large;
-  font-family: 'Merriweather Sans', sans-serif;}
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
 .inside-nav {
-  text-align:right;
-  font-weight:bolder;
+  text-align: right;
+  font-weight: bolder;
 
 }
 
 .navigation .link-active {
-  font-size:larger;
+  font-size: larger;
+  color:rgb(174, 198, 243)
 }
 
 
@@ -78,39 +80,53 @@ body {
 
 .base {
   background-color: var(--primary-color);
-  border-bottom-right-radius: 1rem; 
+  border-bottom-right-radius: 1rem;
   text-align: center;
   padding: 1rem 0.5rem;
   color: white;
   font-size: larger;
- margin: auto;
+  margin: auto;
 
- 
+
 }
 
 .base .nlink {
   color: white;
-  }
-.image{max-width: 350px;
-  display:block;
-   margin:auto;}
-   .bottom{text-align: center;
-  color:var(--half-color)}
-  span{color: var(--primary-color);}
-  .sec-one{background-color:rgb(216, 209, 209);
-  padding:2rem 0rem
 }
-  section h3{text-align: center;
- 
-  }
-  
-  .sec-two{ padding:2rem 0rem}
-  
-  .nlink{padding: 0.2rem 0.2rem;
-  text-decoration: none;
-max-width: 600px;
-margin: auto;
-font-size: smaller;}
 
-  
-  
+.image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.bottom {
+  text-align: center;
+  color: var(--half-color)
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.sec-one {
+  background-color: rgb(216, 209, 209);
+  padding: 2rem 0rem
+}
+
+section h3 {
+  text-align: center;
+
+}
+
+.sec-two {
+  padding: 2rem 0rem
+}
+
+.nlink {
+  padding: 0.2rem 0.2rem;
+  text-decoration: none;
+  max-width: 600px;
+  margin: auto;
+  font-size: smaller;
+}
