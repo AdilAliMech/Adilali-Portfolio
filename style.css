@@ -88,6 +88,7 @@ body {
 
 .base .link {
   color: white;
+  font-size: smaller;
   }
 .image{max-width: 350px;
   display:block;
