@@ -75,27 +75,22 @@ hr {
   font-weight: bolder;
 }
 
-.inside-footer{
-  text-align: center;  
-}
 
-.footer-head {
+
+
+.base {
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 1rem; 
   text-align: center;
   padding: 1rem 0rem;
   color: white;
   font-size: larger;
-  
-}
-
-.base {
-  background-color: var(--primary-color);
-  border-bottom-right-radius: 1rem;
 }
 
 .base .link {
   color: white;
 }
-.image{max-width: 600px;
+.image{max-width: 350px;
   display:block;
    margin:auto;}
    .bottom{text-align: center;
