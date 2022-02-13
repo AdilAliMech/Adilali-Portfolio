@@ -82,7 +82,7 @@ hr {
   background-color: var(--primary-color);
   border-bottom-right-radius: 1rem; 
   text-align: center;
-  padding: 2rem 0.5rem;
+  padding: 1rem 0.5rem;
   color: white;
   font-size: larger;
   
@@ -90,7 +90,8 @@ hr {
 
 .base .link {
   color: white;
-}
+   max-width:600px;
+   margin: auto;}
 .image{max-width: 350px;
   display:block;
    margin:auto;}
