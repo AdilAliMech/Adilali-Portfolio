@@ -1,0 +1,14 @@
+body{background-color:rgb(94, 94, 223)}
+div{
+justify-content: space-around;
+display: flex; }
+.tweet{border: 2px solid black;
+  border-radius: 1rem;
+height:200px;
+width:250px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
